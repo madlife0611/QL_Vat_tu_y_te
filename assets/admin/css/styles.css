@@ -1,0 +1,110 @@
+body{
+            display: flex;
+            padding: 0px;
+        }
+        a{
+            font-size: 20px;
+            text-decoration: none;
+        }
+        .sidebar{
+            width: 300px;
+            background-color: #fff;
+            position: fixed;
+            top:0px;
+            left: 0px;
+            transition: 0.5s;
+            border-right: 1px solid #224099;
+        }
+        .logo{
+            padding: 16px;
+            background-color: #00adee;
+
+        }
+        .card-sidebar{
+            background-color: #224099;
+            border-radius: 0;
+            height: 100vh;
+        }
+
+        .card-sidebar ul li{
+            background-color: unset;
+            padding: 10px;
+        }
+
+        .card-sidebar ul li a{
+            color: white;
+            display: block;
+            padding: .75rem 1.25rem;
+            font-size: 18px;
+        }
+
+        .card-sidebar ul li a:hover{
+            text-decoration: none;
+            color: #f48120;
+        }
+
+        .content{
+            margin-left: 300px;
+            min-height: 100vh;
+            background-color: #ffffff;
+            transition: 0.5s;
+            width: 100%;
+        }
+
+        header{
+            height: 112px;
+            background-color: #224099;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .left_header{
+            display: flex;
+            padding-left: 25px;
+            align-items: center;
+        }
+
+        .right_header{
+            padding-right: 25px;
+        }
+
+        .left_header .input-group{
+            margin-left: 30px;
+        }
+        .dropdown{
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content{
+            display: none;
+            position: absolute;
+            right:0;
+            background-color: #ffffff;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            list-style-type: none;
+            transition: 1s;
+        }
+        .dropdown:hover .dropdown-content{
+            display: block;
+            z-index: 1;
+        }
+        .btn-hover{
+            color:#f48120; background-color: #224099;
+        }
+        .btn-hover:hover{
+            color:#224099; background-color: #f48120;
+        }
+        .table-data th{
+            color: #224099;
+        }
+        /*.table-data a{
+            color: #224099;
+        }
+        .table-data a:hover{
+            color: #f48120;
+        }*/
+        .input_checkbox{
+            width: 50px;
+            height: 50px;
+        }
